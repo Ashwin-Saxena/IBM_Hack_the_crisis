@@ -1,0 +1,34 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    justify-content: center;
+    background: -webkit-linear-gradient(right,skyblue,yellow);
+    /*background: url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+
+button
+{
+    /*width: 25%;
+    height: 10%;*/
+    margin-left: 5%;
+    border: 1 px solid black;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.25s linear;
+    background: magenta;
+}
+button:hover
+{
+	color: magenta;
+  	background: blue;
+}
